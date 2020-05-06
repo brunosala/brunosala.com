@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 
 import { HeroComponent } from './hero/hero.component';
@@ -31,17 +30,14 @@ const routes: Routes = [
   {
     path: '',
     component: PortfolioSectionComponent,
-    data: {animation: '*'},
   },
   {
     path: 'portfolio/ilta',
     component: IltaComponent,
-    data: {animation: '*'},
   },
   {
     path: 'portfolio/equiti',
     component: EquitiComponent,
-    data: {animation: '*'},
   },
   {
     path: 'portfolio/einsurance',
@@ -124,7 +120,6 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

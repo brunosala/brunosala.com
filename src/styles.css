@@ -4,12 +4,22 @@
 ::selection { background: #f9b543; }
 ::-moz-selection { background: #f9b543 }
 
+body {
+    background-color: #1E1E1E;
+}
+
+main router-outlet ~ * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .hero.is-dark {
     background-color: #252526;
 }
 
 .hero.is-dark.is-darker {
-    background-color: #1E1E1E;
+    background-color: transparent;
 }
 
 .hero.is-dark .content h1, .hero.is-dark .content h2, .hero.is-dark .content h3, .hero.is-dark .content h4, .hero.is-dark .content h5, .hero.is-dark .content h6 {
