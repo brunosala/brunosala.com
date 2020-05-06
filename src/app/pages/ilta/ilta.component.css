@@ -1,0 +1,8 @@
+.content .title, .content .subtitle {
+    margin: 0;
+}
+.content h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1rem;
+}

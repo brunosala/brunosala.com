@@ -1,0 +1,21 @@
+@import url('https://jenil.github.io/bulmaswatch/materia/bulmaswatch.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css');
+
+::selection { background: #f9b543; }
+::-moz-selection { background: #f9b543 }
+
+.hero.is-dark {
+    background-color: #252526;
+}
+
+.hero.is-dark.is-darker {
+    background-color: #1E1E1E;
+}
+
+.hero.is-dark .content h1, .hero.is-dark .content h2, .hero.is-dark .content h3, .hero.is-dark .content h4, .hero.is-dark .content h5, .hero.is-dark .content h6 {
+    color: #fff;
+}
+
+.subtitle {
+    font-weight: 100 !important;
+}

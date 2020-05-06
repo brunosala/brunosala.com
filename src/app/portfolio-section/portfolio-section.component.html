@@ -1,0 +1,32 @@
+<div class="hero is-dark is-darker">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div *ngFor="let study of caseStudies"  class="column is-one-third-desktop is-half-tablet">
+                    <a [routerLink]="'/' + study.routerLink">
+                        <div class="box case-study">
+                            <img src={{study.imgUrl}}>
+                            <div class="content">
+                                <h3 class="title ">{{study.title}}</h3>
+                                <h4 class="subtitle ">{{study.subtitle}}</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="columns is-multiline">
+                <div *ngFor="let item of portfolioItems"  class="column is-one-quarter-desktop is-half-tablet">
+                    <a [routerLink]="'/' + item.routerLink">
+                        <div class="box portfolio-item">
+                            <img src={{item.imgUrl}}>
+                            <div class="content">
+                                <h3 class="title ">{{item.title}}</h3>
+                                <h4 class="subtitle">{{item.subtitle}}</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
