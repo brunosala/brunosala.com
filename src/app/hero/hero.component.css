@@ -21,7 +21,7 @@ h2 {
     color: #74b4ca;
 }
 
-.button {
+.button.is-primary {
     background-color: #C34A2B;
     color: #fff;
 }

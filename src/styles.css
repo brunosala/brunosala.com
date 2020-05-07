@@ -22,10 +22,26 @@ main router-outlet ~ * {
     background-color: transparent;
 }
 
-.hero.is-dark .content h1, .hero.is-dark .content h2, .hero.is-dark .content h3, .hero.is-dark .content h4, .hero.is-dark .content h5, .hero.is-dark .content h6 {
+.subtitle {
+    font-weight: 100 !important;
+}
+
+.hero.is-dark .container > .content > h1, .hero.is-dark .container > .content > h2, .hero.is-dark .container > .content > h3, .hero.is-dark .container > .content > h4, .hero.is-dark .container > .content > h5, .hero.is-dark .container > .content > h6 {
     color: #fff;
 }
 
-.subtitle {
-    font-weight: 100 !important;
+.horizontal-slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 1.5rem;
+    /* -ms-overflow-style:none; */
+}
+
+.horizontal-slider::-webkit-scrollbar {
+    /* display: none; */
+}
+
+.horizontal-slider .card {
+    border-radius: 6px;
 }
