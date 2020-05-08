@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 
 import { HeroComponent } from './hero/hero.component';
 import { SocketComponent } from './socket/socket.component';
-import { PortfolioTileComponent } from './portfolio-tile/portfolio-tile.component';
 import { ImgSliderComponent } from './img-slider/img-slider.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
 
@@ -98,7 +97,6 @@ const routes: Routes = [
     AppComponent,
     HeroComponent,
     SocketComponent,
-    PortfolioTileComponent,
     ImgSliderComponent,
     IltaComponent,
     EquitiComponent,

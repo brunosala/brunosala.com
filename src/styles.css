@@ -1,10 +1,9 @@
 @import url('https://jenil.github.io/bulmaswatch/materia/bulmaswatch.min.css');
-@import url('https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css');
 
 ::selection { background: #f9b543; }
 ::-moz-selection { background: #f9b543 }
 
-body {
+html, body {
     background-color: #1E1E1E;
 }
 
@@ -26,6 +25,15 @@ main router-outlet ~ * {
     font-weight: 100 !important;
 }
 
+.content .title, .content .subtitle {
+    margin: 0;
+}
+.content h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 .hero.is-dark .container > .content > h1, .hero.is-dark .container > .content > h2, .hero.is-dark .container > .content > h3, .hero.is-dark .container > .content > h4, .hero.is-dark .container > .content > h5, .hero.is-dark .container > .content > h6 {
     color: #fff;
 }
@@ -35,13 +43,35 @@ main router-outlet ~ * {
     overflow-y: hidden;
     white-space: nowrap;
     padding-bottom: 1.5rem;
-    /* -ms-overflow-style:none; */
-}
-
-.horizontal-slider::-webkit-scrollbar {
-    /* display: none; */
 }
 
 .horizontal-slider .card {
     border-radius: 6px;
+}
+
+.card {
+    white-space: normal;
+}
+
+.is-pulled-right-mobile {
+    float: right;
+}
+
+@media(max-width: 768px) {
+    .content h3.is-size-2 {
+        margin-top: 0;
+        margin-bottom: .8888rem;
+    }
+
+    .has-text-centered-mobile .button {
+        margin: 0 auto;
+    }
+
+    .is-pulled-right-mobile {
+        float: none;
+    }
+
+    .is-pulled-right-mobile.button {
+        margin-bottom: 2em;
+    }
 }

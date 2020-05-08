@@ -7,12 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioSectionComponent implements OnInit {
 
-  caseStudies = [
+  // caseStudies = [
+
+  // ]
+
+  portfolioItems = [
     {
       "routerLink": "portfolio/ilta",
       "imgUrl": "assets/img/ilta.jpg",
       "title": "ILTA",
       "subtitle": "Angular, Salesforce Development"
+    },
+    {
+      "routerLink": "portfolio/equiti",
+      "imgUrl": "assets/img/eq.jpg",
+      "title": "Equiti Games",
+      "subtitle": "Wordpress Development, Marketing"
     },
     {
       "routerLink": "portfolio/bitbloq",
@@ -25,15 +35,6 @@ export class PortfolioSectionComponent implements OnInit {
       "imgUrl": "assets/img/ei.jpg",
       "title": "EInsurance",
       "subtitle": "Laravel, Wordpress Development"
-    },
-  ]
-
-  portfolioItems = [
-    {
-      "routerLink": "portfolio/equiti",
-      "imgUrl": "assets/img/eq.jpg",
-      "title": "Equiti Games",
-      "subtitle": "Wordpress Development, Marketing"
     },
     {
       "routerLink": "portfolio/alldigitalsolutions",

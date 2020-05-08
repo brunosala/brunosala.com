@@ -21,16 +21,4 @@ export class HeroComponent implements OnInit {
       }, 400
     );
   }
-
-  returnHome() {
-    setTimeout(
-      function(){ 
-        window.location.href = "/";
-      }, 400
-    );
-  }
-
-  isHomeRoute() {
-    return this.router.url !== '/';
-  }
 }

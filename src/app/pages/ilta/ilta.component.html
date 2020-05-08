@@ -1,9 +1,10 @@
 <div class="hero is-dark is-darker">
     <div class="hero-body">
         <div class="container">
+            <button (click)="returnHome()" class="button is-pulled-right-mobile"><i class="material-icons">reply</i> Return</button>
             <div class="content">
                 <h5>October 2018 - April 2020</h5>
-                <h3 class="title is-size-2">ILTA</h3>
+                <h3 class="is-size-2">ILTA</h3>
                 <h4 class="subtitle">Angular, Salesforce Development</h4>
             </div>
             <hr>
@@ -28,129 +29,34 @@
                 <h3>Process</h3>
                 <p>Starting 2019, ILTA moved into an agile workflow with biweekly sprints organized using the Atlassian Jira platform. I self-assigned myself tickets pertinent to website changes, event website changes, mobile app changes, and Salesforce feature development.</p>
             </div>
-            <hr>
-            <div class="content">
+            <hr class="is-hidden-mobile">
+            <div class="content is-hidden-mobile">
                 <h3>Projects</h3>
                 <div class="horizontal-slider">
                     <div class="columns has-text-centered">
-                        <div class="column is-one-fifth">
+                        <div class="column is-one-fifth-widescreen is-one-fourth-desktop is-one-third-tablet"
+                        *ngFor="let project of projects; let i = index">
                             <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/europe.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTACON Europe</h3>
-                                        <p>Event Site</p>
+                                <a (click)="toggleModal(i)">
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <img src="assets/img/thumbnails/{{project.imgUrl}}">
+                                        </figure>
                                     </div>
-                                </div>
+                                </a>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <h3>{{project.title}}</h3>
+                                            <p>{{project.subtitle}}</p>
+                                        </div>
+                                    </div>
                             </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/iltacon.jpg">
-                                    </figure>
+                            <div class="modal" id="{{'modal' + i}}">
+                                <div class="modal-background" (click)="toggleModal(i)"></div>
+                                <div class="modal-content">
+                                    <img src="assets/img/fullres/{{project.imgUrl}}">
                                 </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTACON</h3>
-                                        <p>Event Site</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/iltanet.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTAnet</h3>
-                                        <p>Main Site</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/iltavation.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTAVATION</h3>
-                                        <p>Event Site</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/mobile01.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTA Mobile - 01</h3>
-                                        <p>Mobile Community App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/mobile02.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTA Mobile - 02</h3>
-                                        <p>Mobile Community App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/mobile03.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTA Mobile - 03</h3>
-                                        <p>Mobile Community App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-one-fifth">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img src="assets/img/thumbnails/mobile04.jpg">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <div class="content">
-                                        <h3>ILTA Mobile - 04</h3>
-                                        <p>Mobile Community App</p>
-                                    </div>
-                                </div>
+                                <button class="modal-close is-large" aria-label="close" (click)="toggleModal(i)"></button>
                             </div>
                         </div>
                     </div>
