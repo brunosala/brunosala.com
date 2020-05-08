@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-mykaarma',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MykaarmaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    window.open("https://mykaarma.com/");
+    this.router.navigate(['/'])
   }
 
 }

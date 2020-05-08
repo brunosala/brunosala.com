@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-elevatedcampaigns',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElevatedcampaignsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    window.open("https://www.elevatedcampaigns.com/");
+    this.router.navigate(['/'])
   }
 
 }

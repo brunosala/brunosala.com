@@ -24,6 +24,7 @@ import { MyownspadeComponent } from './pages/myownspade/myownspade.component';
 import { AllenstewartComponent } from './pages/allenstewart/allenstewart.component';
 import { ElevatedcampaignsComponent } from './pages/elevatedcampaigns/elevatedcampaigns.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { OutboundMessageComponent } from './outbound-message/outbound-message.component';
 
 const routes: Routes = [
   {
@@ -114,7 +115,8 @@ const routes: Routes = [
     PortfolioSectionComponent,
     AllenstewartComponent,
     ElevatedcampaignsComponent,
-    SocialIconsComponent
+    SocialIconsComponent,
+    OutboundMessageComponent
   ],
   imports: [
     BrowserModule,
