@@ -1,0 +1,95 @@
+@import url('https://jenil.github.io/bulmaswatch/materia/bulmaswatch.min.css');
+
+::selection { background: #f9b543; }
+::-moz-selection { background: #f9b543 }
+
+html, body {
+    background-color: #1E1E1E;
+}
+
+main router-outlet ~ * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero.is-dark {
+    background-color: #252526;
+}
+
+.hero.is-dark.is-darker {
+    background-color: transparent;
+}
+
+.subtitle {
+    font-weight: 100 !important;
+}
+
+.content .title, .content .subtitle {
+    margin: 0;
+}
+.content h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.hero.is-dark .container > .content > h1, .hero.is-dark .container > .content > h2, .hero.is-dark .container > .content > h3, .hero.is-dark .container > .content > h4, .hero.is-dark .container > .content > h5, .hero.is-dark .container > .content > h6 {
+    color: #fff;
+}
+
+.horizontal-slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 1.5rem;
+}
+
+.horizontal-slider .card {
+    border-radius: 6px;
+}
+
+.card {
+    white-space: normal;
+}
+
+.card-image {
+    padding-top: 2em;
+}
+
+.card-image img {
+    max-height: 600px;
+    width: auto;
+}
+
+.is-pulled-right-mobile {
+    float: right;
+}
+
+@media screen and (min-width: 769px)
+{
+    .modal-card, .modal-content {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .content h3.is-size-2 {
+        margin-top: 0;
+        margin-bottom: .8888rem;
+    }
+
+    .has-text-centered-mobile .button {
+        margin: 0 auto;
+    }
+
+    .is-pulled-right-mobile {
+        float: none;
+    }
+
+    .is-pulled-right-mobile.button {
+        margin-bottom: 2em;
+    }
+}
