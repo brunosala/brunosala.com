@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+  import {Router} from "@angular/router";
 @Component({
   selector: 'app-einsurance',
   templateUrl: './einsurance.component.html',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EinsuranceComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    window.open("http://www.einsurance.com/");
+    this.router.navigate(['/'])
   }
 
 }

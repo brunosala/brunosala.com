@@ -56,14 +56,6 @@ export class IltaComponent implements OnInit {
     modal.classList.toggle("is-active");
   }
 
-  returnHome() {
-    setTimeout(
-      function(){ 
-        window.location.href = "/";
-      }, 400
-    );
-  }
-
   constructor() { }
 
   ngOnInit(): void {

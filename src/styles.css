@@ -53,9 +53,27 @@ main router-outlet ~ * {
     white-space: normal;
 }
 
+.card-image {
+    padding-top: 2em;
+}
+
+.card-image img {
+    max-height: 600px;
+    width: auto;
+}
+
 .is-pulled-right-mobile {
     float: right;
 }
+
+@media screen and (min-width: 769px)
+{
+    .modal-card, .modal-content {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
 
 @media(max-width: 768px) {
     .content h3.is-size-2 {

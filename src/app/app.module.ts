@@ -7,6 +7,8 @@ import { HeroComponent } from './hero/hero.component';
 import { SocketComponent } from './socket/socket.component';
 import { ImgSliderComponent } from './img-slider/img-slider.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { ReturnHomeComponent } from './return-home/return-home.component';
 
 import { IltaComponent } from './pages/ilta/ilta.component';
 import { EquitiComponent } from './pages/equiti/equiti.component';
@@ -23,8 +25,8 @@ import { MykaarmaComponent } from './pages/mykaarma/mykaarma.component';
 import { MyownspadeComponent } from './pages/myownspade/myownspade.component';
 import { AllenstewartComponent } from './pages/allenstewart/allenstewart.component';
 import { ElevatedcampaignsComponent } from './pages/elevatedcampaigns/elevatedcampaigns.component';
-import { SocialIconsComponent } from './social-icons/social-icons.component';
-import { OutboundMessageComponent } from './outbound-message/outbound-message.component';
+import { BitbloqComponent } from './pages/bitbloq/bitbloq.component';
+import { JayscustomcreationsComponent } from './pages/jayscustomcreations/jayscustomcreations.component';
 
 const routes: Routes = [
   {
@@ -38,6 +40,10 @@ const routes: Routes = [
   {
     path: 'portfolio/equiti',
     component: EquitiComponent,
+  },
+  {
+    path: 'portfolio/bitbloq',
+    component: BitbloqComponent,
   },
   {
     path: 'portfolio/einsurance',
@@ -91,6 +97,10 @@ const routes: Routes = [
     path: 'portfolio/elevatedcampaigns',
     component: ElevatedcampaignsComponent,
   },
+  {
+    path: 'portfolio/jayscustomcreations',
+    component: JayscustomcreationsComponent,
+  },
 ];
 
 @NgModule({
@@ -116,7 +126,9 @@ const routes: Routes = [
     AllenstewartComponent,
     ElevatedcampaignsComponent,
     SocialIconsComponent,
-    OutboundMessageComponent
+    ReturnHomeComponent,
+    BitbloqComponent,
+    JayscustomcreationsComponent
   ],
   imports: [
     BrowserModule,
