@@ -8,6 +8,7 @@ dependencies:
   '@angular/platform-browser-dynamic': 9.1.4_1d85d278b50835b4512b41e783ad930d
   '@angular/router': 9.1.4_9cfc5af37b5ad8bb4102100aab4cba8b
   '@ng-toolkit/universal': 1.1.51_9d017768f626f53e7f577a0cb476d770
+  ng-lazyload-image: 7.1.0_ef0bce156ab7a2a94b5a6d16ea31194b
   rxjs: 6.5.5
   tslib: 1.11.2
   zone.js: 0.10.3
@@ -5874,6 +5875,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+  /ng-lazyload-image/7.1.0_ef0bce156ab7a2a94b5a6d16ea31194b:
+    dependencies:
+      '@angular/common': 9.1.4_ff8bab71195b1720c15f3b466dd4c80c
+      '@angular/core': 9.1.4_8547517fd2083afbe667610d1c32bd19
+      rxjs: 6.5.5
+      tslib: 1.11.2
+    dev: false
+    peerDependencies:
+      '@angular/common': '>=7.0.0'
+      '@angular/core': '>=7.0.0'
+      rxjs: '>=6.0.0'
+      tslib: ^1.10.0
+    resolution:
+      integrity: sha512-1fip2FdPBDRnjGyBokI/DupBxOnrKh2lbtT8X8N1oPbE3KBZXXl82VIKcK2Sx+XQD67/+VtFzlISmrgsatzYuw==
   /nice-try/1.0.5:
     dev: true
     resolution:
@@ -9364,6 +9379,7 @@ specifiers:
   karma-coverage-istanbul-reporter: ~2.1.1
   karma-jasmine: ~3.0.3
   karma-jasmine-html-reporter: ^1.5.3
+  ng-lazyload-image: ^7.1.0
   protractor: ~5.4.4
   rxjs: ~6.5.5
   ts-node: ~8.3.0
