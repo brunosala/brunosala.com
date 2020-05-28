@@ -36,7 +36,7 @@
                                 <a (click)="toggleModal(i)">
                                     <div class="card-image">
                                         <figure class="image">
-                                            <img src="assets/img/thumbnails/{{project.imgUrl}}">
+                                            <img lazyLoad="assets/img/thumbnails/{{project.imgUrl}}">
                                         </figure>
                                     </div>
                                 </a>
@@ -50,7 +50,7 @@
                             <div class="modal" id="{{'modal' + i}}">
                                 <div class="modal-background" (click)="toggleModal(i)"></div>
                                 <div class="modal-content">
-                                    <img src="assets/img/fullres/{{project.imgUrl}}">
+                                    <img lazyLoad="assets/img/fullres/{{project.imgUrl}}">
                                 </div>
                                 <button class="modal-close is-large" aria-label="close" (click)="toggleModal(i)"></button>
                             </div>
