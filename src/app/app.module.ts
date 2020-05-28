@@ -27,6 +27,13 @@ import { AllenstewartComponent } from './pages/allenstewart/allenstewart.compone
 import { ElevatedcampaignsComponent } from './pages/elevatedcampaigns/elevatedcampaigns.component';
 import { BitbloqComponent } from './pages/bitbloq/bitbloq.component';
 import { JayscustomcreationsComponent } from './pages/jayscustomcreations/jayscustomcreations.component';
+import { BigthinkeryComponent } from './pages/bigthinkery/bigthinkery.component';
+import { KioxiaComponent } from './pages/kioxia/kioxia.component';
+import { BedbuglawyerComponent } from './pages/bedbuglawyer/bedbuglawyer.component';
+import { WestpalmwebdevelopmentComponent } from './pages/westpalmwebdevelopment/westpalmwebdevelopment.component';
+import { UnidosmarketingComponent } from './pages/unidosmarketing/unidosmarketing.component';
+import { ThefutureofjewelryComponent } from './pages/thefutureofjewelry/thefutureofjewelry.component';
+import { ChristiesheldonComponent } from './pages/christiesheldon/christiesheldon.component';
 
 const routes: Routes = [
   {
@@ -101,6 +108,34 @@ const routes: Routes = [
     path: 'portfolio/jayscustomcreations',
     component: JayscustomcreationsComponent,
   },
+  {
+    path: 'portfolio/bigthinkery',
+    component: BigthinkeryComponent,
+  },
+  {
+    path: 'portfolio/kioxia',
+    component: KioxiaComponent,
+  },
+  {
+    path: 'portfolio/bedbuglawyer',
+    component: BedbuglawyerComponent,
+  },
+  {
+    path: 'portfolio/thefutureofjewelry',
+    component: ThefutureofjewelryComponent,
+  },
+  {
+    path: 'portfolio/westpalmwebdevelopment',
+    component: WestpalmwebdevelopmentComponent,
+  },
+  {
+    path: 'portfolio/christiesheldon',
+    component: ChristiesheldonComponent,
+  },
+  {
+    path: 'portfolio/unidosmarketing',
+    component: UnidosmarketingComponent,
+  },
 ];
 
 @NgModule({
@@ -128,7 +163,14 @@ const routes: Routes = [
     SocialIconsComponent,
     ReturnHomeComponent,
     BitbloqComponent,
-    JayscustomcreationsComponent
+    JayscustomcreationsComponent,
+    BigthinkeryComponent,
+    KioxiaComponent,
+    BedbuglawyerComponent,
+    WestpalmwebdevelopmentComponent,
+    UnidosmarketingComponent,
+    ThefutureofjewelryComponent,
+    ChristiesheldonComponent
   ],
   imports: [
     BrowserModule,
