@@ -19,12 +19,12 @@
               <div class="horizontal-slider">
                   <div class="columns has-text-centered">
                       <div class="column is-one-fifth-widescreen is-one-fourth-desktop is-one-third-tablet"
-                      *ngFor="let card of data.portfolioItem.slider_thumbnails; let i = index">
+                      *ngFor="let card of data.portfolioItem.slider_fullres; let i = index">
                           <div class="card">
                               <a (click)="toggleModal(i)">
                                   <div class="card-image">
                                       <figure class="image">
-                                          <img lazyLoad="http://localhost:1337{{card.url}}">
+                                          <img lazyLoad="/cms/public{{card.formats.small.url}}">
                                       </figure>
                                   </div>
                               </a>
@@ -35,10 +35,10 @@
                                   </div>
                               </div>
                           </div>
-                          <div *ngFor="let modal of data.portfolioItem.slider_fullres" class="modal" id="{{'modal' + i}}">
+                          <div class="modal" id="{{'modal' + i}}">
                               <div class="modal-background" (click)="toggleModal(i)"></div>
                               <div class="modal-content">
-                                  <img lazyLoad="http://localhost:1337{{modal.url}}">
+                                  <img lazyLoad="/cms/public{{card.url}}">
                               </div>
                               <button class="modal-close is-large" aria-label="close" (click)="toggleModal(i)"></button>
                           </div>

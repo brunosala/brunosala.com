@@ -9,9 +9,7 @@ const PORTFOLIO_PAGES_QUERY = gql`
             body
             slider_fullres {
                 url
-            }
-            slider_thumbnails {
-                url
+                formats
             }
         }
     }
