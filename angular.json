@@ -22,7 +22,6 @@
             "assets": [
               "src/favicon.png",
               "src/assets",
-              "src/cms/public",
               "src/_redirects"
             ],
             "styles": [

@@ -14,9 +14,9 @@ export class PortfolioTilesComponent implements OnInit {
   data: any = {};
   loading = true;
   errors: any;
-
+  
   private queryTiles: Subscription;
-
+  
   constructor(private apollo: Apollo) {}
 
   ngOnInit() {

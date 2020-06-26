@@ -2,13 +2,13 @@
   <div class="hero-body">
       <div class="container">
           <div *ngIf="data" class="columns is-multiline">
-              <div *ngFor="let item of data.portfolioItems"  class="column is-one-third-desktop is-half-tablet">
-                  <a routerLink="/{{ item.id }}" routerLinkActive="active">
+              <div *ngFor="let item of data.portfolioItems; let i = index"  class="column is-one-third-desktop is-half-tablet">
+                  <a *ngIf="item.outbound_url !== null" routerLink="/{{ item.id }}" routerLinkActive="active">
                       <div class="box portfolio-item">
-                          <img lazyLoad="/cms/public{{item.featured_image.url}}"> 
+                          <img lazyLoad="http://localhost:1337{{item.featured_image.url}}"> 
                           <div class="content"> 
-                              <div class="tag is-pulled-right">{{item.tag}}</div> 
-                              <h3 class="title ">{{item.title}}</h3>
+                              <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'opens_new_tab','is-primary':item.tag === 'case_study'}">{{item.tag | formatTag}}</div> 
+                              <h3 class="title ">{{item.title}} {{item.outbound_url}}</h3>
                               <h4 class="subtitle">{{item.subtitle}}</h4>
                           </div>
                       </div>

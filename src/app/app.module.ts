@@ -12,6 +12,7 @@ import { PortfolioPagesComponent } from './portfolio-pages/portfolio-pages.compo
 import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { ReturnHomeComponent } from './return-home/return-home.component';
 import { MarkdownModule } from "ngx-markdown";
+import { FormatTagPipe } from './pipes/tag-format.pipe';
 
 const routes: Routes = [
   {
@@ -32,6 +33,7 @@ const routes: Routes = [
     SocialIconsComponent,
     ReturnHomeComponent,
     PortfolioPagesComponent,
+    FormatTagPipe
   ],
   imports: [
     BrowserModule,
