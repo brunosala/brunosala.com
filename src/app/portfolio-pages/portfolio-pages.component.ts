@@ -13,6 +13,7 @@ import { Subscription } from "rxjs";
 
 export class PortfolioPagesComponent implements OnInit {
 
+  isDataAvailable:boolean = false;
   data: any = {};
   loading = true;
   errors: any;
@@ -33,7 +34,7 @@ export class PortfolioPagesComponent implements OnInit {
       .watchQuery({
         query: PORTFOLIO_PAGES_QUERY,
         variables: {
-          id: this.route.snapshot.paramMap.get("id")
+          slug: this.route.snapshot.paramMap.get("id")
         }
       })
       .valueChanges.subscribe(result => {
@@ -41,6 +42,8 @@ export class PortfolioPagesComponent implements OnInit {
         this.loading = result.loading;
         this.errors = result.errors;
       });
+
+      this.isDataAvailable = true;
   }
 
   ngOnDestroy() {

@@ -1,16 +1,16 @@
-<div class="hero is-dark is-darker">
+<div class="hero is-dark is-darker" *ngIf="isDataAvailable">
   <div class="hero-body">
       <div class="container">
           <app-return-home></app-return-home>
           <div class="content">
-              <h5>{{ data.portfolioItem.date_string }}</h5>
-              <h3 class="is-size-2">{{ data.portfolioItem.title }}</h3>
-              <h4 class="subtitle">{{ data.portfolioItem.subtitle }}</h4>
+              <h5>{{ data.portfolioItems[0].date_string }}</h5>
+              <h3 class="is-size-2">{{ data.portfolioItems[0].title }}</h3>
+              <h4 class="subtitle">{{ data.portfolioItems[0].subtitle }}</h4>
           </div>
           <hr>
           <div class="content">
               <markdown ngPreserveWhitespaces>
-                {{ data.portfolioItem.body }}
+                {{ data.portfolioItems[0].body }}
               </markdown>
           </div>
           <hr class="is-hidden-mobile">
@@ -19,7 +19,7 @@
               <div class="horizontal-slider">
                   <div class="columns has-text-centered">
                       <div class="column is-one-fifth-widescreen is-one-fourth-desktop is-one-third-tablet"
-                      *ngFor="let card of data.portfolioItem.slider_fullres; let i = index">
+                      *ngFor="let card of data.portfolioItems[0].slider_fullres; let i = index">
                           <div class="card">
                               <a (click)="toggleModal(i)">
                                   <div class="card-image">
@@ -30,8 +30,8 @@
                               </a>
                               <div class="card-content">
                                   <div class="content">
-                                      <h3>{{data.portfolioItem.title}}</h3>
-                                      <p>{{data.portfolioItem.subtitle}}</p>
+                                      <h3>{{data.portfolioItems[0].title}}</h3>
+                                      <p>{{data.portfolioItems[0].subtitle}}</p>
                                   </div>
                               </div>
                           </div>

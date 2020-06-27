@@ -10,6 +10,8 @@ const PORTFOLIO_TILES_QUERY = gql`
             featured_image {
                 url
             }
+            slug
+            outbound_url
         }
     }
 `;
