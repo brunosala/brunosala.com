@@ -24,7 +24,7 @@
                               <a (click)="toggleModal(i)">
                                   <div class="card-image">
                                       <figure class="image">
-                                          <img lazyLoad="https://f4223334-2a3d-4c0d-b7bf-8f54333d3911.s3.us-west-1.amazonaws.com{{card.formats.small.url}}">
+                                          <img lazyLoad="https://com-brunosala-strapi.herokuapp.com{{card.formats.small.url}}">
                                       </figure>
                                   </div>
                               </a>
@@ -38,7 +38,7 @@
                           <div class="modal" id="{{'modal' + i}}">
                               <div class="modal-background" (click)="toggleModal(i)"></div>
                               <div class="modal-content">
-                                  <img lazyLoad="https://f4223334-2a3d-4c0d-b7bf-8f54333d3911.s3.us-west-1.amazonaws.com{{card.url}}">
+                                  <img lazyLoad="https://com-brunosala-strapi.herokuapp.com{{card.url}}">
                               </div>
                               <button class="modal-close is-large" aria-label="close" (click)="toggleModal(i)"></button>
                           </div>
