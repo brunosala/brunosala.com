@@ -1,0 +1,40 @@
+<div class="hero is-dark is-darker">
+  <div class="hero-body">
+      <div class="container" *ngIf="data">
+          <div class="columns is-multiline">
+              <div *ngFor="let item of data.portfolioItems; let i = index"  class="column is-one-third-desktop is-half-tablet">
+                    <a *ngIf="(item.outbound_url === null || item.outbound_url === '') && item.outbound_url !== 'none'" routerLink="/{{ item.slug }}" routerLinkActive="active">
+                      <div class="box portfolio-item">
+                          <img lazyLoad="http://localhost:1337{{item.featured_image.url}}"> 
+                          <div class="content"> 
+                              <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                              <h3 class="title">{{item.title}}</h3>
+                              <h4 class="subtitle">{{item.subtitle}}</h4>
+                          </div>
+                      </div>
+                    </a>
+                    <a *ngIf="item.outbound_url !== null && item.outbound_url !== '' && item.outbound_url !== 'none'" href="{{ item.outbound_url }}" rel="noopener" target="_blank">
+                        <div class="box portfolio-item">
+                            <img lazyLoad="http://localhost:1337{{item.featured_image.url}}"> 
+                            <div class="content"> 
+                                <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                                <h3 class="title">{{item.title}}</h3>
+                                <h4 class="subtitle">{{item.subtitle}}</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a *ngIf="item.outbound_url === 'none'">
+                        <div class="box portfolio-item">
+                            <img lazyLoad="http://localhost:1337{{item.featured_image.url}}"> 
+                            <div class="content"> 
+                                <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                                <h3 class="title">{{item.title}}</h3>
+                                <h4 class="subtitle">{{item.subtitle}}</h4>
+                            </div>
+                        </div>
+                    </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

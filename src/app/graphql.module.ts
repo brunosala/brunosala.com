@@ -4,6 +4,10 @@ import {HttpLinkModule, HttpLink} from 'apollo-angular-link-http';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 
 const uri = 'http://localhost:1337/graphql'; // <-- add the URL of the GraphQL server here
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of e0be78e... connecto heroku
 export function createApollo(httpLink: HttpLink) {
   return {
     link: httpLink.create({uri}),
