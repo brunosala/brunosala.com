@@ -1,0 +1,20 @@
+<div class="hero is-dark is-darker">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div *ngFor="let item of portfolioItems"  class="column is-one-third-desktop is-half-tablet">
+                    <a [routerLink]="item.routerLink">
+                        <div class="box portfolio-item">
+                            <img [lazyLoad]="item.imgUrl">
+                            <div class="content">
+                                <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tagline === 'Opens New Tab','is-primary':item.tagline === 'Case Study'}">{{item.tagline}}</div>
+                                <h3 class="title ">{{item.title}}</h3>
+                                <h4 class="subtitle">{{item.subtitle}}</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

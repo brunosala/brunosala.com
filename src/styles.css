@@ -34,9 +34,46 @@ main router-outlet ~ * {
     font-size: 1rem;
 }
 
+.hero.is-dark .container > .content > h1, .hero.is-dark .container > .content > h2, .hero.is-dark .container > .content > h3, .hero.is-dark .container > .content > h4, .hero.is-dark .container > .content > h5, .hero.is-dark .container > .content > h6 {
+    color: #fff;
+}
+
+.horizontal-slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 1.5rem;
+}
+
+.horizontal-slider .card {
+    border-radius: 6px;
+}
+
+.card {
+    white-space: normal;
+}
+
+.card-image {
+    padding-top: 2em;
+}
+
+.card-image img {
+    max-height: 600px;
+    width: auto;
+}
+
 .is-pulled-right-mobile {
     float: right;
 }
+
+@media screen and (min-width: 769px)
+{
+    .modal-card, .modal-content {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
 
 @media(max-width: 768px) {
     .content h3.is-size-2 {

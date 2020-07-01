@@ -1,0 +1,64 @@
+<div class="hero is-dark is-darker">
+    <div class="hero-body">
+        <div class="container">
+            <app-return-home></app-return-home>
+            <div class="content">
+                <h5>June 2018 - January 2019</h5>
+                <h3 class="is-size-2">Equiti Games</h3>
+                <h4 class="subtitle">Wordpress Development, Automation</h4>
+            </div>
+            <hr>
+            <div class="content">
+                <h3>Overview</h3>
+                <p>I was brought onto the Equiti Games team by the social media personality <a href="https://www.youtube.com/channel/UCBE-FO9JUOghSysV9gjTeHw" target="_blank">Nixie Pixel</a>, hired to build the customer-facing website for the company's upcoming ICO. Using incredible mockups provided by the team I built the site on Wordpress with full CSS animations and interactive elements.</p>
+                <h3>Tech</h3>
+                <p>To have readily available bandwidth we built both the website and app in docker containers. For the website there are two sub containers, the daily build and the static HTML build. This was done to allow marketing / non-IT staff to have access to the Wordpress site and create content using visual builders and then once the ICO traffic was expected to hit we could redeploy with Wordpress converted to static HTML. The static site held outbound hrefs leading to the ICO web app.</p>
+                <h4>Languages / Frameworks / Platforms</h4>
+                <ul>
+                    <li><p>Docker</p></li>
+                    <li><p>Gatsby.js</p></li>
+                    <li><p>mySQL</p></li>
+                    <li><p>PHP</p></li>
+                    <li><p>NGINX</p></li>
+                    <li><p>Wordpress</p></li>
+                </ul>
+                <h3>Process</h3>
+                <p>Equiti struggled with project management. Most requests, revisions, docs, and assets were organized using Slack channels and Google Doc comments. Deadlines were typically due "in the next few days" and I would receive full section revisions weeks after the site had already launched. I hope that my postmortem I ran through with the project leads helped solidify for them that rigid processes and documentation are key to building tech that lasts.</p>
+            </div>
+            <hr class="is-hidden-mobile">
+            <div class="content is-hidden-mobile">
+                <h3>Projects</h3>
+                <div class="horizontal-slider">
+                    <div class="columns has-text-centered">
+                        <div class="column is-one-fifth-widescreen is-one-fourth-desktop is-one-third-tablet"
+                        *ngFor="let project of projects; let i = index">
+                            <div class="card">
+                                <a (click)="toggleModal(i)">
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <img lazyLoad="assets/img/thumbnails/{{project.imgUrl}}">
+                                        </figure>
+                                    </div>
+                                </a>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <h3>{{project.title}}</h3>
+                                            <p>{{project.subtitle}}</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="modal" id="{{'modal' + i}}">
+                                <div class="modal-background" (click)="toggleModal(i)"></div>
+                                <div class="modal-content">
+                                    <img lazyLoad="assets/img/fullres/{{project.imgUrl}}">
+                                </div>
+                                <button class="modal-close is-large" aria-label="close" (click)="toggleModal(i)"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
