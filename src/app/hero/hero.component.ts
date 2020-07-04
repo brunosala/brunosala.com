@@ -17,7 +17,7 @@ export class HeroComponent implements OnInit {
   openResume() {
     setTimeout(
       function(){ 
-        window.open("assets/doc/Daniel%20Bruno%20Sala%20-%20Resume%20-%20072020.pdf");
+        window.open("assets/doc/Daniel%20Bruno%20Sala%20-%20Resume%20-%2007032020.pdf");
       }, 400
     );
   }
