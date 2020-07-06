@@ -1,740 +1,848 @@
 {
-    "data": {
-      "portfolioItems": [
-        {
-          "title": "ILTA",
-          "subtitle": "Angular 2+, Salesforce",
-          "slug": "ilta",
-          "featured_image": {
-            "url": "/uploads/ilta_f34b8f6d6d.jpeg"
-          },
-          "tag": "summary",
-          "outbound_url": "",
-          "body": "### Overview\n\nI was brought onto the ILTA marketing team in late August of 2018 as a W2 contractor for an estimated nine months. My tasks were to complete a full audit of the company's website infrastructure and assist in implementing auotmated marketing solutions. By December I was offered a full time position as a core front end developer, which I readily accepted. Myself and many other employees had our time with ILTA cut short due to COVID-19 being that ILTA's core products and services revolve around in-person events.\n\n### Tech\n\nILTA's website stack was based on vendor solutions, namely the HigherLogic CMS and the Personify360 CRM. Both were outdated and riddled with bad UX, SEO blockers, inaccessibility, and security flaws.\n\nThe team's primary operational goal moving into 2019 was to migrate our data from Personify360 into Salesforce and then utilize Salesforce as both CRM and headless CMS. With SF as a headless CMS we would be able to build any front end with any tech stack needed regardless of department. For example, the marketing team may need Wordpress and a visual builder for an event site while operations needed Angular/Cordova for our mobile applications and both would have been compatible with our data structure.\n\n### Languages / Frameworks / Platforms\n\n- Angular 2+\n- Apache Cordova\n- Bootstrap\n- Express.js\n- jQuery\n- mySQL\n- Node.js\n- PHP\n- Salesforce\n\n### Process\n\nStarting 2019, ILTA moved into an agile workflow with biweekly sprints utilizing the Atlassian Jira platform. I self-assigned myself tickets pertinent to website changes, event website changes, mobile app changes, and Salesforce feature development.",
-          "slider_fullres": [
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_iltacon_85b165c83f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 42,
-                  "height": 156,
-                  "size": 2.34,
-                  "path": null,
-                  "url": "/uploads/thumbnail_iltacon_85b165c83f.jpeg"
-                },
-                "large": {
-                  "hash": "large_iltacon_85b165c83f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 267,
-                  "height": 1000,
-                  "size": 40.83,
-                  "path": null,
-                  "url": "/uploads/large_iltacon_85b165c83f.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_iltacon_85b165c83f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 200,
-                  "height": 750,
-                  "size": 26.35,
-                  "path": null,
-                  "url": "/uploads/medium_iltacon_85b165c83f.jpeg"
-                },
-                "small": {
-                  "hash": "small_iltacon_85b165c83f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 133,
-                  "height": 500,
-                  "size": 13.17,
-                  "path": null,
-                  "url": "/uploads/small_iltacon_85b165c83f.jpeg"
-                }
+  "data": {
+    "portfolioItems": [
+      {
+        "title": "ILTA",
+        "subtitle": "Angular 2+, Salesforce",
+        "slug": "ilta",
+        "featured_image": {
+          "url": "/uploads/ilta_f34b8f6d6d.jpeg"
+        },
+        "tag": "summary",
+        "outbound_url": "",
+        "body": "### Overview\n\nI was brought onto the ILTA marketing team in late August of 2018 as a W2 contractor for an estimated nine months. My tasks were to complete a full audit of the company's website infrastructure and assist in implementing auotmated marketing solutions. By December I was offered a full time position as a core front end developer, which I readily accepted. Myself and many other employees had our time with ILTA cut short due to COVID-19 being that ILTA's core products and services revolve around in-person events.\n\n### Tech\n\nILTA's website stack was based on vendor solutions, namely the HigherLogic CMS and the Personify360 CRM. Both were outdated and riddled with bad UX, SEO blockers, inaccessibility, and security flaws.\n\nThe team's primary operational goal moving into 2019 was to migrate our data from Personify360 into Salesforce and then utilize Salesforce as both CRM and headless CMS. With SF as a headless CMS we would be able to build any front end with any tech stack needed regardless of department. For example, the marketing team may need Wordpress and a visual builder for an event site while operations needed Angular/Cordova for our mobile applications and both would have been compatible with our data structure.\n\n### Languages / Frameworks / Platforms\n\n- Angular 2+\n- Apache Cordova\n- Bootstrap\n- Express.js\n- jQuery\n- mySQL\n- Node.js\n- PHP\n- Salesforce\n\n### Process\n\nStarting 2019, ILTA moved into an agile workflow with biweekly sprints utilizing the Atlassian Jira platform. I self-assigned myself tickets pertinent to website changes, event website changes, mobile app changes, and Salesforce feature development.",
+        "slider_fullres": [
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_iltacon_85b165c83f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 42,
+                "height": 156,
+                "size": 2.34,
+                "path": null,
+                "url": "/uploads/thumbnail_iltacon_85b165c83f.jpeg"
               },
-              "url": "/uploads/iltacon_85b165c83f.jpeg"
+              "large": {
+                "hash": "large_iltacon_85b165c83f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 267,
+                "height": 1000,
+                "size": 40.83,
+                "path": null,
+                "url": "/uploads/large_iltacon_85b165c83f.jpeg"
+              },
+              "medium": {
+                "hash": "medium_iltacon_85b165c83f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 200,
+                "height": 750,
+                "size": 26.35,
+                "path": null,
+                "url": "/uploads/medium_iltacon_85b165c83f.jpeg"
+              },
+              "small": {
+                "hash": "small_iltacon_85b165c83f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 133,
+                "height": 500,
+                "size": 13.17,
+                "path": null,
+                "url": "/uploads/small_iltacon_85b165c83f.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_iltanet_f2a9a19ad5",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 52,
-                  "height": 156,
-                  "size": 2.64,
-                  "path": null,
-                  "url": "/uploads/thumbnail_iltanet_f2a9a19ad5.jpeg"
-                },
-                "large": {
-                  "hash": "large_iltanet_f2a9a19ad5",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 333,
-                  "height": 1000,
-                  "size": 47.99,
-                  "path": null,
-                  "url": "/uploads/large_iltanet_f2a9a19ad5.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_iltanet_f2a9a19ad5",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 250,
-                  "height": 750,
-                  "size": 30.42,
-                  "path": null,
-                  "url": "/uploads/medium_iltanet_f2a9a19ad5.jpeg"
-                },
-                "small": {
-                  "hash": "small_iltanet_f2a9a19ad5",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 167,
-                  "height": 500,
-                  "size": 15.02,
-                  "path": null,
-                  "url": "/uploads/small_iltanet_f2a9a19ad5.jpeg"
-                }
+            "url": "/uploads/iltacon_85b165c83f.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_iltanet_f2a9a19ad5",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 52,
+                "height": 156,
+                "size": 2.64,
+                "path": null,
+                "url": "/uploads/thumbnail_iltanet_f2a9a19ad5.jpeg"
               },
-              "url": "/uploads/iltanet_f2a9a19ad5.jpeg"
+              "large": {
+                "hash": "large_iltanet_f2a9a19ad5",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 333,
+                "height": 1000,
+                "size": 47.99,
+                "path": null,
+                "url": "/uploads/large_iltanet_f2a9a19ad5.jpeg"
+              },
+              "medium": {
+                "hash": "medium_iltanet_f2a9a19ad5",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 250,
+                "height": 750,
+                "size": 30.42,
+                "path": null,
+                "url": "/uploads/medium_iltanet_f2a9a19ad5.jpeg"
+              },
+              "small": {
+                "hash": "small_iltanet_f2a9a19ad5",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 167,
+                "height": 500,
+                "size": 15.02,
+                "path": null,
+                "url": "/uploads/small_iltanet_f2a9a19ad5.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_iltavation_b25617888b",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 46,
-                  "height": 156,
-                  "size": 1.97,
-                  "path": null,
-                  "url": "/uploads/thumbnail_iltavation_b25617888b.jpeg"
-                },
-                "large": {
-                  "hash": "large_iltavation_b25617888b",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 297,
-                  "height": 1000,
-                  "size": 33.9,
-                  "path": null,
-                  "url": "/uploads/large_iltavation_b25617888b.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_iltavation_b25617888b",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 223,
-                  "height": 750,
-                  "size": 20.71,
-                  "path": null,
-                  "url": "/uploads/medium_iltavation_b25617888b.jpeg"
-                },
-                "small": {
-                  "hash": "small_iltavation_b25617888b",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 148,
-                  "height": 500,
-                  "size": 10.9,
-                  "path": null,
-                  "url": "/uploads/small_iltavation_b25617888b.jpeg"
-                }
+            "url": "/uploads/iltanet_f2a9a19ad5.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_iltavation_b25617888b",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 46,
+                "height": 156,
+                "size": 1.97,
+                "path": null,
+                "url": "/uploads/thumbnail_iltavation_b25617888b.jpeg"
               },
-              "url": "/uploads/iltavation_b25617888b.jpeg"
+              "large": {
+                "hash": "large_iltavation_b25617888b",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 297,
+                "height": 1000,
+                "size": 33.9,
+                "path": null,
+                "url": "/uploads/large_iltavation_b25617888b.jpeg"
+              },
+              "medium": {
+                "hash": "medium_iltavation_b25617888b",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 223,
+                "height": 750,
+                "size": 20.71,
+                "path": null,
+                "url": "/uploads/medium_iltavation_b25617888b.jpeg"
+              },
+              "small": {
+                "hash": "small_iltavation_b25617888b",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 148,
+                "height": 500,
+                "size": 10.9,
+                "path": null,
+                "url": "/uploads/small_iltavation_b25617888b.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_mobile01_f6829fddcb",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 88,
-                  "height": 156,
-                  "size": 2.26,
-                  "path": null,
-                  "url": "/uploads/thumbnail_mobile01_f6829fddcb.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_mobile01_f6829fddcb",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 422,
-                  "height": 750,
-                  "size": 19.82,
-                  "path": null,
-                  "url": "/uploads/medium_mobile01_f6829fddcb.jpeg"
-                },
-                "small": {
-                  "hash": "small_mobile01_f6829fddcb",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 281,
-                  "height": 500,
-                  "size": 11.1,
-                  "path": null,
-                  "url": "/uploads/small_mobile01_f6829fddcb.jpeg"
-                }
+            "url": "/uploads/iltavation_b25617888b.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_mobile01_f6829fddcb",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 88,
+                "height": 156,
+                "size": 2.26,
+                "path": null,
+                "url": "/uploads/thumbnail_mobile01_f6829fddcb.jpeg"
               },
-              "url": "/uploads/mobile01_f6829fddcb.jpeg"
+              "medium": {
+                "hash": "medium_mobile01_f6829fddcb",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 422,
+                "height": 750,
+                "size": 19.82,
+                "path": null,
+                "url": "/uploads/medium_mobile01_f6829fddcb.jpeg"
+              },
+              "small": {
+                "hash": "small_mobile01_f6829fddcb",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 281,
+                "height": 500,
+                "size": 11.1,
+                "path": null,
+                "url": "/uploads/small_mobile01_f6829fddcb.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_mobile02_cfd43e312c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 88,
-                  "height": 156,
-                  "size": 4.1,
-                  "path": null,
-                  "url": "/uploads/thumbnail_mobile02_cfd43e312c.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_mobile02_cfd43e312c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 422,
-                  "height": 750,
-                  "size": 57.7,
-                  "path": null,
-                  "url": "/uploads/medium_mobile02_cfd43e312c.jpeg"
-                },
-                "small": {
-                  "hash": "small_mobile02_cfd43e312c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 281,
-                  "height": 500,
-                  "size": 30.64,
-                  "path": null,
-                  "url": "/uploads/small_mobile02_cfd43e312c.jpeg"
-                }
+            "url": "/uploads/mobile01_f6829fddcb.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_mobile02_cfd43e312c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 88,
+                "height": 156,
+                "size": 4.1,
+                "path": null,
+                "url": "/uploads/thumbnail_mobile02_cfd43e312c.jpeg"
               },
-              "url": "/uploads/mobile02_cfd43e312c.jpeg"
+              "medium": {
+                "hash": "medium_mobile02_cfd43e312c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 422,
+                "height": 750,
+                "size": 57.7,
+                "path": null,
+                "url": "/uploads/medium_mobile02_cfd43e312c.jpeg"
+              },
+              "small": {
+                "hash": "small_mobile02_cfd43e312c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 281,
+                "height": 500,
+                "size": 30.64,
+                "path": null,
+                "url": "/uploads/small_mobile02_cfd43e312c.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_mobile03_fd9b993692",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 88,
-                  "height": 156,
-                  "size": 3.47,
-                  "path": null,
-                  "url": "/uploads/thumbnail_mobile03_fd9b993692.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_mobile03_fd9b993692",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 422,
-                  "height": 750,
-                  "size": 35.63,
-                  "path": null,
-                  "url": "/uploads/medium_mobile03_fd9b993692.jpeg"
-                },
-                "small": {
-                  "hash": "small_mobile03_fd9b993692",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 281,
-                  "height": 500,
-                  "size": 20.01,
-                  "path": null,
-                  "url": "/uploads/small_mobile03_fd9b993692.jpeg"
-                }
+            "url": "/uploads/mobile02_cfd43e312c.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_mobile03_fd9b993692",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 88,
+                "height": 156,
+                "size": 3.47,
+                "path": null,
+                "url": "/uploads/thumbnail_mobile03_fd9b993692.jpeg"
               },
-              "url": "/uploads/mobile03_fd9b993692.jpeg"
+              "medium": {
+                "hash": "medium_mobile03_fd9b993692",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 422,
+                "height": 750,
+                "size": 35.63,
+                "path": null,
+                "url": "/uploads/medium_mobile03_fd9b993692.jpeg"
+              },
+              "small": {
+                "hash": "small_mobile03_fd9b993692",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 281,
+                "height": 500,
+                "size": 20.01,
+                "path": null,
+                "url": "/uploads/small_mobile03_fd9b993692.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_mobile04_475ab8a91d",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 88,
-                  "height": 156,
-                  "size": 3.32,
-                  "path": null,
-                  "url": "/uploads/thumbnail_mobile04_475ab8a91d.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_mobile04_475ab8a91d",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 422,
-                  "height": 750,
-                  "size": 43.84,
-                  "path": null,
-                  "url": "/uploads/medium_mobile04_475ab8a91d.jpeg"
-                },
-                "small": {
-                  "hash": "small_mobile04_475ab8a91d",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 281,
-                  "height": 500,
-                  "size": 23.21,
-                  "path": null,
-                  "url": "/uploads/small_mobile04_475ab8a91d.jpeg"
-                }
-              },
-              "url": "/uploads/mobile04_475ab8a91d.jpeg"
-            }
-          ]
-        },
-        {
-          "title": "Equiti Games",
-          "subtitle": "Docker, Wordpress",
-          "slug": "equiti-games",
-          "featured_image": {
-            "url": "/uploads/eq_965c6c5614.jpeg"
+            "url": "/uploads/mobile03_fd9b993692.jpeg"
           },
-          "tag": "summary",
-          "outbound_url": null,
-          "body": "### Overview\n\nI was brought onto the Equiti Games team by the social media personality Nixie Pixel, hired to build the customer-facing website for the company's upcoming ICO. Using incredible mockups provided by the team I built the site on Wordpress with full CSS animations and interactive elements.\n\n### Tech\n\nTo have readily available bandwidth we built both the website and app in docker containers. For the website there are two sub containers, the daily build and the static HTML build. This was done to allow marketing / non-IT staff to have access to the Wordpress site and create content using visual builders and then once the ICO traffic was expected to hit we could redeploy with Wordpress converted to static HTML. The static site held outbound hrefs leading to the ICO web app.\n\n### Languages / Frameworks / Platforms\n\n- Docker\n- Gatsby.js\n- mySQL\n- PHP\n- NGINX\n- Wordpress\n\n### Process\n\nEquiti struggled with project management. Most requests, revisions, docs, and assets were organized using Slack channels and Google Doc comments. Deadlines were typically due \"in the next few days\" and I would receive full section revisions weeks after the site had already launched. I hope that my postmortem I ran through with the project leads helped solidify for them that rigid processes and documentation are key to building tech that lasts.\n\n",
-          "slider_fullres": [
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_equiti_io_3998c36a96",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 19,
-                  "height": 156,
-                  "size": 1.7,
-                  "path": null,
-                  "url": "/uploads/thumbnail_equiti_io_3998c36a96.jpeg"
-                },
-                "large": {
-                  "hash": "large_equiti_io_3998c36a96",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 122,
-                  "height": 1000,
-                  "size": 27.93,
-                  "path": null,
-                  "url": "/uploads/large_equiti_io_3998c36a96.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_equiti_io_3998c36a96",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 91,
-                  "height": 750,
-                  "size": 17.66,
-                  "path": null,
-                  "url": "/uploads/medium_equiti_io_3998c36a96.jpeg"
-                },
-                "small": {
-                  "hash": "small_equiti_io_3998c36a96",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 61,
-                  "height": 500,
-                  "size": 9.35,
-                  "path": null,
-                  "url": "/uploads/small_equiti_io_3998c36a96.jpeg"
-                }
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_mobile04_475ab8a91d",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 88,
+                "height": 156,
+                "size": 3.32,
+                "path": null,
+                "url": "/uploads/thumbnail_mobile04_475ab8a91d.jpeg"
               },
-              "url": "/uploads/equiti_io_3998c36a96.jpeg"
+              "medium": {
+                "hash": "medium_mobile04_475ab8a91d",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 422,
+                "height": 750,
+                "size": 43.84,
+                "path": null,
+                "url": "/uploads/medium_mobile04_475ab8a91d.jpeg"
+              },
+              "small": {
+                "hash": "small_mobile04_475ab8a91d",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 281,
+                "height": 500,
+                "size": 23.21,
+                "path": null,
+                "url": "/uploads/small_mobile04_475ab8a91d.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_equiti_io_blog_bf809cd73f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 115,
-                  "height": 156,
-                  "size": 5.34,
-                  "path": null,
-                  "url": "/uploads/thumbnail_equiti_io_blog_bf809cd73f.jpeg"
-                },
-                "large": {
-                  "hash": "large_equiti_io_blog_bf809cd73f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 735,
-                  "height": 1000,
-                  "size": 101.26,
-                  "path": null,
-                  "url": "/uploads/large_equiti_io_blog_bf809cd73f.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_equiti_io_blog_bf809cd73f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 551,
-                  "height": 750,
-                  "size": 64.92,
-                  "path": null,
-                  "url": "/uploads/medium_equiti_io_blog_bf809cd73f.jpeg"
-                },
-                "small": {
-                  "hash": "small_equiti_io_blog_bf809cd73f",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 368,
-                  "height": 500,
-                  "size": 34.05,
-                  "path": null,
-                  "url": "/uploads/small_equiti_io_blog_bf809cd73f.jpeg"
-                }
-              },
-              "url": "/uploads/equiti_io_blog_bf809cd73f.jpeg"
-            }
-          ]
+            "url": "/uploads/mobile04_475ab8a91d.jpeg"
+          }
+        ]
+      },
+      {
+        "title": "Equiti Games",
+        "subtitle": "Docker, Wordpress",
+        "slug": "equiti-games",
+        "featured_image": {
+          "url": "/uploads/eq_965c6c5614.jpeg"
         },
-        {
-          "title": "BitBloq",
-          "subtitle": "React, REST API",
-          "slug": "bitbloq",
-          "featured_image": {
-            "url": "/uploads/bb_4285f3d7de.jpeg"
-          },
-          "tag": "summary",
-          "outbound_url": null,
-          "body": "### Overview\n\nIn 2018 almost every single freelance project I started either involved cryptocurrency or America's newly emerging marijuana market. So many different companies started their own ICOs with their own idea of how blockchain could change the world, BitBloq planned to step forward and become the go-to crypto social media platform. Eventually the final Bitcoin crash in November also crushed most ICOs, which unfortunately included BitBloq.\n\n### Challenges\n\nBitBloq planned for a staggered ICO which would alleviate compute costs and somewhat mitigate inflation of their coin. With the planned staggering, I created a static ICO website using React and Gatsby.js. The actual app interface was built separate and required incoming API requests, apparently done so that the app could create an orderly queue and batch transaction requests without having a heavy compute cost. The obvious issue would be that the main website is rendered as static HTML, falling on myself to either find a solution that allowed an API to be initiated from a static source or create an intermediary application that acted as a handler between the site and transaction app.\n\nA key factor was to keep compute costs low, BitBloq was going into their ICO with start-up investments and having to pay for not only the ICO but to operate their actual marketplace stack. Mismanaged, their ICO could crush rather than elevate them.\n\n### Research and Development\n\n#### React Hydration\n\nThis was the first major project I used React and Gatbsy.js with (note that Gatsby.js was more of a generator utility rather than a framework at the time) and I had determined that \"rehydration\" of forms / api componenets could be a feasible option. Hydration is a React concept where a server generated static HTML site is actively modified by server-side React calls allowing for app-like functionality within the static site. While this is a phenomenal function I found there was a discrepency on the data the rehydration was providing to the server. It seemed as though the investor information would bind itself to the wrong API call and at the time the Gatsby forums were lit up with posts about the \"React Hydration issue\".\n\nThere was a discrepency between the time it took for the server side API to generate and fire in tandem with the client side's API call to the server. This was late October and Bitcoin was peaking so we decided to stop wasting time resolving this issue and to sprint towards a rapid launch.\n\nNote: The launch of React 16.8 solved the above issue with React Hooks. The data provided during hydration could easily be wrapped with a paired API call.\n\n#### Ajax Handler\n\nAt the end of the day we opted for the simplest yet most contentious-amongst-staff option, using vanilla JavaScript. After Gatsby would generate the static HTML pages, a server-side script would inject a small Ajax JS handler into the page. It was a quick and easy solution that worked perfectly even though it didn't render server-side.\n\n### Tech\n\n- Languages / Frameworks / Platforms\n- AWS\n- Ethereum Server\n- JavaScript\n- Gatsby.js\n- React\n\n### Process\n\nBitBloq was well organized. The leadership team came from various branches of tech and knew what it took to keep a project moving.",
-          "slider_fullres": [
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_bitbloq_io_site_7f576098e1",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 20,
-                  "height": 156,
-                  "size": 1.49,
-                  "path": null,
-                  "url": "/uploads/thumbnail_bitbloq_io_site_7f576098e1.jpeg"
-                },
-                "large": {
-                  "hash": "large_bitbloq_io_site_7f576098e1",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 126,
-                  "height": 1000,
-                  "size": 20.12,
-                  "path": null,
-                  "url": "/uploads/large_bitbloq_io_site_7f576098e1.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_bitbloq_io_site_7f576098e1",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 95,
-                  "height": 750,
-                  "size": 13.55,
-                  "path": null,
-                  "url": "/uploads/medium_bitbloq_io_site_7f576098e1.jpeg"
-                },
-                "small": {
-                  "hash": "small_bitbloq_io_site_7f576098e1",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 63,
-                  "height": 500,
-                  "size": 7.22,
-                  "path": null,
-                  "url": "/uploads/small_bitbloq_io_site_7f576098e1.jpeg"
-                }
+        "tag": "summary",
+        "outbound_url": null,
+        "body": "### Overview\n\nI was brought onto the Equiti Games team by the social media personality Nixie Pixel, hired to build the customer-facing website for the company's upcoming ICO. Using incredible mockups provided by the team I built the site on Wordpress with full CSS animations and interactive elements.\n\n### Tech\n\nTo have readily available bandwidth we built both the website and app in docker containers. For the website there are two sub containers, the daily build and the static HTML build. This was done to allow marketing / non-IT staff to have access to the Wordpress site and create content using visual builders and then once the ICO traffic was expected to hit we could redeploy with Wordpress converted to static HTML. The static site held outbound hrefs leading to the ICO web app.\n\n### Languages / Frameworks / Platforms\n\n- Docker\n- Gatsby.js\n- mySQL\n- PHP\n- NGINX\n- Wordpress\n\n### Process\n\nEquiti struggled with project management. Most requests, revisions, docs, and assets were organized using Slack channels and Google Doc comments. Deadlines were typically due \"in the next few days\" and I would receive full section revisions weeks after the site had already launched. I hope that my postmortem I ran through with the project leads helped solidify for them that rigid processes and documentation are key to building tech that lasts.\n\n",
+        "slider_fullres": [
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_equiti_io_3998c36a96",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 19,
+                "height": 156,
+                "size": 1.7,
+                "path": null,
+                "url": "/uploads/thumbnail_equiti_io_3998c36a96.jpeg"
               },
-              "url": "/uploads/bitbloq_io_site_7f576098e1.jpeg"
+              "large": {
+                "hash": "large_equiti_io_3998c36a96",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 122,
+                "height": 1000,
+                "size": 27.93,
+                "path": null,
+                "url": "/uploads/large_equiti_io_3998c36a96.jpeg"
+              },
+              "medium": {
+                "hash": "medium_equiti_io_3998c36a96",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 91,
+                "height": 750,
+                "size": 17.66,
+                "path": null,
+                "url": "/uploads/medium_equiti_io_3998c36a96.jpeg"
+              },
+              "small": {
+                "hash": "small_equiti_io_3998c36a96",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 61,
+                "height": 500,
+                "size": 9.35,
+                "path": null,
+                "url": "/uploads/small_equiti_io_3998c36a96.jpeg"
+              }
             },
-            {
-              "formats": {
-                "thumbnail": {
-                  "hash": "thumbnail_bitbloq_app_536cb5756c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 245,
-                  "height": 138,
-                  "size": 6.04,
-                  "path": null,
-                  "url": "/uploads/thumbnail_bitbloq_app_536cb5756c.jpeg"
-                },
-                "large": {
-                  "hash": "large_bitbloq_app_536cb5756c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 1000,
-                  "height": 563,
-                  "size": 54.74,
-                  "path": null,
-                  "url": "/uploads/large_bitbloq_app_536cb5756c.jpeg"
-                },
-                "medium": {
-                  "hash": "medium_bitbloq_app_536cb5756c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 750,
-                  "height": 422,
-                  "size": 33.77,
-                  "path": null,
-                  "url": "/uploads/medium_bitbloq_app_536cb5756c.jpeg"
-                },
-                "small": {
-                  "hash": "small_bitbloq_app_536cb5756c",
-                  "ext": ".jpeg",
-                  "mime": "image/jpeg",
-                  "width": 500,
-                  "height": 281,
-                  "size": 17.67,
-                  "path": null,
-                  "url": "/uploads/small_bitbloq_app_536cb5756c.jpeg"
-                }
+            "url": "/uploads/equiti_io_3998c36a96.jpeg"
+          },
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_equiti_io_blog_bf809cd73f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 115,
+                "height": 156,
+                "size": 5.34,
+                "path": null,
+                "url": "/uploads/thumbnail_equiti_io_blog_bf809cd73f.jpeg"
               },
-              "url": "/uploads/bitbloq_app_536cb5756c.jpeg"
-            }
-          ]
+              "large": {
+                "hash": "large_equiti_io_blog_bf809cd73f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 735,
+                "height": 1000,
+                "size": 101.26,
+                "path": null,
+                "url": "/uploads/large_equiti_io_blog_bf809cd73f.jpeg"
+              },
+              "medium": {
+                "hash": "medium_equiti_io_blog_bf809cd73f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 551,
+                "height": 750,
+                "size": 64.92,
+                "path": null,
+                "url": "/uploads/medium_equiti_io_blog_bf809cd73f.jpeg"
+              },
+              "small": {
+                "hash": "small_equiti_io_blog_bf809cd73f",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 368,
+                "height": 500,
+                "size": 34.05,
+                "path": null,
+                "url": "/uploads/small_equiti_io_blog_bf809cd73f.jpeg"
+              }
+            },
+            "url": "/uploads/equiti_io_blog_bf809cd73f.jpeg"
+          }
+        ]
+      },
+      {
+        "title": "BitBloq",
+        "subtitle": "React, REST API",
+        "slug": "bitbloq",
+        "featured_image": {
+          "url": "/uploads/bb_4285f3d7de.jpeg"
         },
-        {
-          "title": "Bed Bug Lawyer",
-          "subtitle": "REST API, Wordpress",
-          "slug": "bed-bug-lawyer",
-          "featured_image": {
-            "url": "/uploads/bbl_81fd8c246f.jpeg"
+        "tag": "summary",
+        "outbound_url": null,
+        "body": "### Overview\n\nIn 2018 almost every single freelance project I started either involved cryptocurrency or America's newly emerging marijuana market. So many different companies started their own ICOs with their own idea of how blockchain could change the world, BitBloq planned to step forward and become the go-to crypto social media platform. Eventually the final Bitcoin crash in November also crushed most ICOs, which unfortunately included BitBloq.\n\n### Challenges\n\nBitBloq planned for a staggered ICO which would alleviate compute costs and somewhat mitigate inflation of their coin. With the planned staggering, I created a static ICO website using React and Gatsby.js. The actual app interface was built separate and required incoming API requests, apparently done so that the app could create an orderly queue and batch transaction requests without having a heavy compute cost. The obvious issue would be that the main website is rendered as static HTML, falling on myself to either find a solution that allowed an API to be initiated from a static source or create an intermediary application that acted as a handler between the site and transaction app.\n\nA key factor was to keep compute costs low, BitBloq was going into their ICO with start-up investments and having to pay for not only the ICO but to operate their actual marketplace stack. Mismanaged, their ICO could crush rather than elevate them.\n\n### Research and Development\n\n#### React Hydration\n\nThis was the first major project I used React and Gatbsy.js with (note that Gatsby.js was more of a generator utility rather than a framework at the time) and I had determined that \"rehydration\" of forms / api componenets could be a feasible option. Hydration is a React concept where a server generated static HTML site is actively modified by server-side React calls allowing for app-like functionality within the static site. While this is a phenomenal function I found there was a discrepency on the data the rehydration was providing to the server. It seemed as though the investor information would bind itself to the wrong API call and at the time the Gatsby forums were lit up with posts about the \"React Hydration issue\".\n\nThere was a discrepency between the time it took for the server side API to generate and fire in tandem with the client side's API call to the server. This was late October and Bitcoin was peaking so we decided to stop wasting time resolving this issue and to sprint towards a rapid launch.\n\nNote: The launch of React 16.8 solved the above issue with React Hooks. The data provided during hydration could easily be wrapped with a paired API call.\n\n#### Ajax Handler\n\nAt the end of the day we opted for the simplest yet most contentious-amongst-staff option, using vanilla JavaScript. After Gatsby would generate the static HTML pages, a server-side script would inject a small Ajax JS handler into the page. It was a quick and easy solution that worked perfectly even though it didn't render server-side.\n\n### Tech\n\n- Languages / Frameworks / Platforms\n- AWS\n- Ethereum Server\n- JavaScript\n- Gatsby.js\n- React\n\n### Process\n\nBitBloq was well organized. The leadership team came from various branches of tech and knew what it took to keep a project moving.",
+        "slider_fullres": [
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_bitbloq_io_site_7f576098e1",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 20,
+                "height": 156,
+                "size": 1.49,
+                "path": null,
+                "url": "/uploads/thumbnail_bitbloq_io_site_7f576098e1.jpeg"
+              },
+              "large": {
+                "hash": "large_bitbloq_io_site_7f576098e1",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 126,
+                "height": 1000,
+                "size": 20.12,
+                "path": null,
+                "url": "/uploads/large_bitbloq_io_site_7f576098e1.jpeg"
+              },
+              "medium": {
+                "hash": "medium_bitbloq_io_site_7f576098e1",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 95,
+                "height": 750,
+                "size": 13.55,
+                "path": null,
+                "url": "/uploads/medium_bitbloq_io_site_7f576098e1.jpeg"
+              },
+              "small": {
+                "hash": "small_bitbloq_io_site_7f576098e1",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 63,
+                "height": 500,
+                "size": 7.22,
+                "path": null,
+                "url": "/uploads/small_bitbloq_io_site_7f576098e1.jpeg"
+              }
+            },
+            "url": "/uploads/bitbloq_io_site_7f576098e1.jpeg"
           },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://bedbuglawyer.org/",
-          "body": null,
-          "slider_fullres": []
+          {
+            "formats": {
+              "thumbnail": {
+                "hash": "thumbnail_bitbloq_app_536cb5756c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 245,
+                "height": 138,
+                "size": 6.04,
+                "path": null,
+                "url": "/uploads/thumbnail_bitbloq_app_536cb5756c.jpeg"
+              },
+              "large": {
+                "hash": "large_bitbloq_app_536cb5756c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 1000,
+                "height": 563,
+                "size": 54.74,
+                "path": null,
+                "url": "/uploads/large_bitbloq_app_536cb5756c.jpeg"
+              },
+              "medium": {
+                "hash": "medium_bitbloq_app_536cb5756c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 750,
+                "height": 422,
+                "size": 33.77,
+                "path": null,
+                "url": "/uploads/medium_bitbloq_app_536cb5756c.jpeg"
+              },
+              "small": {
+                "hash": "small_bitbloq_app_536cb5756c",
+                "ext": ".jpeg",
+                "mime": "image/jpeg",
+                "width": 500,
+                "height": 281,
+                "size": 17.67,
+                "path": null,
+                "url": "/uploads/small_bitbloq_app_536cb5756c.jpeg"
+              }
+            },
+            "url": "/uploads/bitbloq_app_536cb5756c.jpeg"
+          }
+        ]
+      },
+      {
+        "title": "Bed Bug Lawyer",
+        "subtitle": "REST API, Wordpress",
+        "slug": "bed-bug-lawyer",
+        "featured_image": {
+          "url": "/uploads/bbl_81fd8c246f.jpeg"
         },
-        {
-          "title": "Kioxia (Toshiba)",
-          "subtitle": "Hubspot, JavaScript",
-          "slug": "kioxia",
-          "featured_image": {
-            "url": "/uploads/kio_17174d50be.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.kioxia.com/en-us/top.html",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://bedbuglawyer.org/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Kioxia (Toshiba)",
+        "subtitle": "Hubspot, JavaScript",
+        "slug": "kioxia",
+        "featured_image": {
+          "url": "/uploads/kio_17174d50be.jpeg"
         },
-        {
-          "title": "Big Thinkery",
-          "subtitle": "Hubspot",
-          "slug": "big-thinkery",
-          "featured_image": {
-            "url": "/uploads/bt_fd983c9890.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.bigthinkery.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.kioxia.com/en-us/top.html",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Big Thinkery",
+        "subtitle": "Hubspot",
+        "slug": "big-thinkery",
+        "featured_image": {
+          "url": "/uploads/bt_fd983c9890.jpeg"
         },
-        {
-          "title": "Jay's Custom Creations",
-          "subtitle": "DevOps, LAMP",
-          "slug": "jays-custom-creations",
-          "featured_image": {
-            "url": "/uploads/jayscustomcreations_463145c2fe.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://jayscustomcreations.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.bigthinkery.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Jay's Custom Creations",
+        "subtitle": "DevOps, LAMP",
+        "slug": "jays-custom-creations",
+        "featured_image": {
+          "url": "/uploads/jayscustomcreations_463145c2fe.jpeg"
         },
-        {
-          "title": "Amare Global",
-          "subtitle": "Bootstrap 3, JavaScript",
-          "slug": "amare-global",
-          "featured_image": {
-            "url": "/uploads/ag_23a2251889.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.amareglobal.com/corporate/en-US/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://jayscustomcreations.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Amare Global",
+        "subtitle": "Bootstrap 3, JavaScript",
+        "slug": "amare-global",
+        "featured_image": {
+          "url": "/uploads/ag_23a2251889.jpeg"
         },
-        {
-          "title": "Allen Stewart",
-          "subtitle": "Hubspot, Wordpress",
-          "slug": "allen-stewart",
-          "featured_image": {
-            "url": "/uploads/as_e47f5c266e.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.allenstewart.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.amareglobal.com/corporate/en-US/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Allen Stewart",
+        "subtitle": "Hubspot, Wordpress",
+        "slug": "allen-stewart",
+        "featured_image": {
+          "url": "/uploads/as_e47f5c266e.jpeg"
         },
-        {
-          "title": "Communities4Construction",
-          "subtitle": "LAMP",
-          "slug": "communities4construction",
-          "featured_image": {
-            "url": "/uploads/cec_974b2fcb5a.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "http://www.communities4construction.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.allenstewart.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Communities4Construction",
+        "subtitle": "LAMP",
+        "slug": "communities4construction",
+        "featured_image": {
+          "url": "/uploads/cec_974b2fcb5a.jpeg"
         },
-        {
-          "title": "The Future Of Jewelry",
-          "subtitle": "DevOps, LAMP",
-          "slug": "the-future-of-jewelry",
-          "featured_image": {
-            "url": "/uploads/tfoj_38771e572a.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://thefutureofjewelry.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "http://www.communities4construction.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "The Future Of Jewelry",
+        "subtitle": "DevOps, LAMP",
+        "slug": "the-future-of-jewelry",
+        "featured_image": {
+          "url": "/uploads/tfoj_38771e572a.jpeg"
         },
-        {
-          "title": "Christie Sheldon",
-          "subtitle": "Adsense, Wordpress",
-          "slug": "christie-sheldon",
-          "featured_image": {
-            "url": "/uploads/cs_abc1a47c96.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.mindvalley.com/christie-marie-sheldon/love-or-above/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://thefutureofjewelry.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Christie Sheldon",
+        "subtitle": "Adsense, Wordpress",
+        "slug": "christie-sheldon",
+        "featured_image": {
+          "url": "/uploads/cs_abc1a47c96.jpeg"
         },
-        {
-          "title": "EInsurance",
-          "subtitle": "Laravel, Wordpress",
-          "slug": "einsurance",
-          "featured_image": {
-            "url": "/uploads/ei_bcf183a633.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.einsurance.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.mindvalley.com/christie-marie-sheldon/love-or-above/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "EInsurance",
+        "subtitle": "Laravel, Wordpress",
+        "slug": "einsurance",
+        "featured_image": {
+          "url": "/uploads/ei_bcf183a633.jpeg"
         },
-        {
-          "title": "myKaarma",
-          "subtitle": "Wordpress",
-          "slug": "mykaarma",
-          "featured_image": {
-            "url": "/uploads/mk_f0ee96db73.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://mykaarma.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.einsurance.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "myKaarma",
+        "subtitle": "Wordpress",
+        "slug": "mykaarma",
+        "featured_image": {
+          "url": "/uploads/mk_f0ee96db73.jpeg"
         },
-        {
-          "title": "The Search Market FIrm",
-          "subtitle": "Android, DevOps",
-          "slug": "the-search-market-firm",
-          "featured_image": {
-            "url": "/uploads/tsmf_2c6f599eff.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.thesearchmarketfirm.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://mykaarma.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "The Search Market FIrm",
+        "subtitle": "Android, DevOps",
+        "slug": "the-search-market-firm",
+        "featured_image": {
+          "url": "/uploads/tsmf_2c6f599eff.jpeg"
         },
-        {
-          "title": "My Own Spade",
-          "subtitle": "Wordpress",
-          "slug": "my-own-spade",
-          "featured_image": {
-            "url": "/uploads/mos_075f595291.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.myownspade.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.thesearchmarketfirm.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "My Own Spade",
+        "subtitle": "Wordpress",
+        "slug": "my-own-spade",
+        "featured_image": {
+          "url": "/uploads/mos_075f595291.jpeg"
         },
-        {
-          "title": "All Digital Solutions",
-          "subtitle": "Angular 2+, Java, Wordpress",
-          "slug": "all-digital-solutions",
-          "featured_image": {
-            "url": "/uploads/ads_fb892f90ec.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://alldigitalsolutions.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.myownspade.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "All Digital Solutions",
+        "subtitle": "Angular 2+, Java, Wordpress",
+        "slug": "all-digital-solutions",
+        "featured_image": {
+          "url": "/uploads/ads_fb892f90ec.jpeg"
         },
-        {
-          "title": "Unidos Marketing",
-          "subtitle": "Wordpress",
-          "slug": "unidos-marketing",
-          "featured_image": {
-            "url": "/uploads/um_089fd4aaa8.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://unidosmarketing.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://alldigitalsolutions.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Unidos Marketing",
+        "subtitle": "Wordpress",
+        "slug": "unidos-marketing",
+        "featured_image": {
+          "url": "/uploads/um_089fd4aaa8.jpeg"
         },
-        {
-          "title": "Kowy",
-          "subtitle": "Shopify, Wordpress",
-          "slug": "kowy",
-          "featured_image": {
-            "url": "/uploads/kw_bf1f1c2a56.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://kowy.co/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://unidosmarketing.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Kowy",
+        "subtitle": "Shopify, Wordpress",
+        "slug": "kowy",
+        "featured_image": {
+          "url": "/uploads/kw_bf1f1c2a56.jpeg"
         },
-        {
-          "title": "Elevated Campaigns",
-          "subtitle": "Wordpress",
-          "slug": "elevated-campaigns",
-          "featured_image": {
-            "url": "/uploads/ec_8ef6f641ca.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "https://www.elevatedcampaigns.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://kowy.co/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Elevated Campaigns",
+        "subtitle": "Wordpress",
+        "slug": "elevated-campaigns",
+        "featured_image": {
+          "url": "/uploads/ec_8ef6f641ca.jpeg"
         },
-        {
-          "title": "West Palm Web Dev",
-          "subtitle": "Paypal API",
-          "slug": "west-palm-web-development",
-          "featured_image": {
-            "url": "/uploads/wpd_7603b9dd3d.jpeg"
-          },
-          "tag": "opens_new_tab",
-          "outbound_url": "http://westpalmwebdev.com/",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.elevatedcampaigns.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "West Palm Web Dev",
+        "subtitle": "Paypal API",
+        "slug": "west-palm-web-development",
+        "featured_image": {
+          "url": "/uploads/wpd_7603b9dd3d.jpeg"
         },
-        {
-          "title": "Cathy Glasson",
-          "subtitle": "Wordpress",
-          "slug": "cathy-glasson",
-          "featured_image": {
-            "url": "/uploads/cg_d9fe783b87.jpeg"
-          },
-          "tag": "no_resource",
-          "outbound_url": "none",
-          "body": null,
-          "slider_fullres": []
+        "tag": "opens_new_tab",
+        "outbound_url": "http://westpalmwebdev.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Cathy Glasson",
+        "subtitle": "Wordpress",
+        "slug": "cathy-glasson",
+        "featured_image": {
+          "url": "/uploads/cg_d9fe783b87.jpeg"
         },
-        {
-          "title": "Race Inc Auto Auctions",
-          "subtitle": "Wordpress",
-          "slug": "race-inc-auto-auctions",
-          "featured_image": {
-            "url": "/uploads/riaa_b73bbba13b.jpeg"
-          },
-          "tag": "no_resource",
-          "outbound_url": "none",
-          "body": null,
-          "slider_fullres": []
-        }
-      ]
-    }
+        "tag": "no_resource",
+        "outbound_url": "none",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Race Inc Auto Auctions",
+        "subtitle": "Wordpress",
+        "slug": "race-inc-auto-auctions",
+        "featured_image": {
+          "url": "/uploads/riaa_b73bbba13b.jpeg"
+        },
+        "tag": "no_resource",
+        "outbound_url": "none",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Picasso's Grapevine",
+        "subtitle": "WordPress",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/pg_cfbed9cf3d.jpeg"
+        },
+        "tag": "no_resource",
+        "outbound_url": "",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Synergy Bank Consulting",
+        "subtitle": "REST API, JavaScript",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/sbc_3e0b858b54.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.synbc.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Bevel Space",
+        "subtitle": "WordPress",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/bevelspace_e7aa6db330.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://bevel.space/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Hausmarkt",
+        "subtitle": "IDX / RETS API",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/hm_7a67f9fbf1.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.hausmarkt.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "ClearPathGPS",
+        "subtitle": "JavaScript",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/cpg_80f9cdb454.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.clearpathgps.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Whiskey and Red",
+        "subtitle": "JavaScript",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/war_d52af8dcd7.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://whiskeyandred.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "K-Tech Solutions",
+        "subtitle": "JavaScript",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/kts_cc4136ef37.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "http://ktechsol.com/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "iBandwidth LLC",
+        "subtitle": "LAMP",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/ibw_c0297da5e3.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://www.ibandwidth.net/",
+        "body": null,
+        "slider_fullres": []
+      },
+      {
+        "title": "Automatic Garage Door SF",
+        "subtitle": "WordPress",
+        "slug": null,
+        "featured_image": {
+          "url": "/uploads/agdsf_0ffbba8cc3.jpeg"
+        },
+        "tag": "opens_new_tab",
+        "outbound_url": "https://automaticgaragedoorsf.com/",
+        "body": null,
+        "slider_fullres": []
+      }
+    ]
   }
+}
