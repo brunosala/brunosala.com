@@ -2,7 +2,7 @@
     <div class="hero-body">
         <div class="container" *ngIf="strapi">
             <div class="columns is-multiline">
-                <div *ngFor="let item of strapi.data.portfolioItems; let i = index"  class="column is-one-third-desktop is-half-tablet">
+                <div *ngFor="let item of strapi; let i = index"  class="column is-one-third-desktop is-half-tablet">
                       <a *ngIf="(item.outbound_url === null || item.outbound_url === '') && item.outbound_url !== 'none'" routerLink="/{{ item.slug }}" routerLinkActive="active">
                         <div class="box portfolio-item">
                             <img lazyLoad="./assets/{{item.featured_image.url}}"> 
