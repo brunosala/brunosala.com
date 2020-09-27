@@ -8,3 +8,5 @@ Strapi
 GraphQL
 
 Netlify
+
+Up
