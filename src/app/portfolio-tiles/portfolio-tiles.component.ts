@@ -28,10 +28,6 @@ export class PortfolioTilesComponent implements OnInit {
       return stringA > stringB ? -1 : stringA < stringB ? 1 : 0;
     });
 
-    console.log(items);
-    console.log(stripped);
-    console.log(sorted);
-
     this.strapi = sorted; 
   }
 }

@@ -7,7 +7,7 @@
                         <div class="box portfolio-item">
                             <img lazyLoad="./assets/{{item.featured_image.url}}"> 
                             <div class="content"> 
-                                <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                                <div class="tag is-pulled-right is-danger">{{item.tag | formatTag}}</div> 
                                 <h3 class="title">{{item.title}}</h3>
                                 <h4 class="subtitle">{{item.subtitle}}</h4>
                             </div>
@@ -17,7 +17,7 @@
                           <div class="box portfolio-item">
                               <img lazyLoad="./assets/{{item.featured_image.url}}"> 
                               <div class="content"> 
-                                  <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                                  <div class="tag is-pulled-right is-primary">{{item.tag | formatTag}}</div> 
                                   <h3 class="title">{{item.title}}</h3>
                                   <h4 class="subtitle">{{item.subtitle}}</h4>
                               </div>
@@ -27,7 +27,7 @@
                           <div class="box portfolio-item">
                               <img lazyLoad="./assets/{{item.featured_image.url}}"> 
                               <div class="content"> 
-                                  <div class="tag is-pulled-right" [ngClass]="{'is-danger':item.tag === 'no_resource','is-primary':item.tag === 'opens_new_tab'}">{{item.tag | formatTag}}</div> 
+                                  <div class="tag is-pulled-right">{{item.tag | formatTag}}</div> 
                                   <h3 class="title">{{item.title}}</h3>
                                   <h4 class="subtitle">{{item.subtitle}}</h4>
                               </div>

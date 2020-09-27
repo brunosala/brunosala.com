@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router"
 
 @Component({
   selector: 'app-return-home',
@@ -7,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReturnHomeComponent implements OnInit {
 
+  constructor(private router: Router) {}
+
   returnHome() {
-    setTimeout(
-      function(){ 
-        window.location.href = "/";
-      }, 400
+    setTimeout(() => { 
+      this.router.navigate(['']) 
+    }, 
+    400
     );
   }
-
-  constructor() { }
 
   ngOnInit(): void {
   }
