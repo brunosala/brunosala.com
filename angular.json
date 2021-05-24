@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "brunosala.com": {
+    "brunosala-com": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/brunosala.com",
+            "outputPath": "dist/brunosala-com",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "brunosala.com:build"
+            "browserTarget": "brunosala-com:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "brunosala.com:build:production"
+              "browserTarget": "brunosala-com:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "brunosala.com:build"
+            "browserTarget": "brunosala-com:build"
           }
         },
         "test": {
@@ -117,15 +117,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "brunosala.com:serve"
+            "devServerTarget": "brunosala-com:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "brunosala.com:serve:production"
+              "devServerTarget": "brunosala-com:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "brunosala.com"
+  "defaultProject": "brunosala-com"
 }
