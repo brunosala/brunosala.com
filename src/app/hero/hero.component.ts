@@ -17,7 +17,7 @@ export class HeroComponent implements OnInit {
   openResume() {
     setTimeout(
       function(){ 
-        window.open("assets/doc/Daniel Bruno Sala - Resume - 07062020.pdf");
+        window.open("assets/docs/Daniel Bruno Sala - Resume - 08122021.pdf");
       }, 400
     );
   }
@@ -25,7 +25,7 @@ export class HeroComponent implements OnInit {
   openCV() {
     setTimeout(
       function(){ 
-        window.open("assets/doc/Daniel Bruno Sala - CV - 07062020.pdf");
+        window.open("assets/docs/Daniel Bruno Sala - CV - 08122021.pdf");
       }, 400
     );
   }
