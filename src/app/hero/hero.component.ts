@@ -13,13 +13,7 @@ export class HeroComponent implements OnInit {
 
   openResume() {
     setTimeout(function () {
-      window.open('assets/docs/Daniel Bruno Sala - Resume - 02_22.pdf');
-    }, 300);
-  }
-
-  openCV() {
-    setTimeout(function () {
-      window.open('assets/docs/Daniel Bruno Sala - CV - 02_22.pdf');
+      window.open('assets/docs/Daniel Bruno Sala - Resume - 10_22.pdf');
     }, 300);
   }
 }
