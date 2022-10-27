@@ -1,12 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Main = () => {
-  return (
-    <div className='columns'>
-      <div className='column'></div>
-      <div className='column'></div>
-    </div>
-  );
+  return <div className="section">PORTFOLIO</div>;
 };
 
 export default Main;

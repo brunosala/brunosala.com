@@ -1,12 +1,8 @@
-import React from 'react';
+import React from "react";
+import Intro from "./Intro";
 
 const Main = () => {
-  return (
-    <div className='columns'>
-      <div className='column'></div>
-      <div className='column'></div>
-    </div>
-  );
+  return <Intro />;
 };
 
 export default Main;
